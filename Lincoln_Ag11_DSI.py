@@ -23,7 +23,7 @@ def cor_nivel(nivel):
         return Fore.CYAN
     elif nivel == 5:
         return Fore.BLUE
-    else:
+    else: se
         return Fore.WHITE
 
 def barra(nivel):
@@ -37,7 +37,7 @@ def alerta(nivel):
     else:
         return ""
 
-print("\n=== Controle de Nível de Água ===\n")
+print("\n=== Controle de Nivel de Água ===\n")
 
 for i in range(len(niveis)):
     nivel = i + 1
