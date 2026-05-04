@@ -27,7 +27,7 @@ def cor_nivel(nivel):
         return Fore.WHITE
 
 def barra(nivel):
-    return "[" + "#" * nivel + " " * (5 - nivel) + "]"
+    return "[" + "#" * nivel + " " * (len(niveis) - nivel) + "]"
 
 def alerta(nivel):
     if nivel == 1:
@@ -39,7 +39,7 @@ def alerta(nivel):
 
 print("\n=== Controle de Nível de Água ===\n")
 
-for i in range(5):
+for i in range(len(niveis)):
     nivel = i + 1
     cor = cor_nivel(nivel)
 
@@ -53,4 +53,3 @@ for i in range(5):
     print()
 
 print(Style.RESET_ALL)
-
