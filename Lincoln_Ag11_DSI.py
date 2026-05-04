@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from colorama import Fore, Style, init
 
 init(autoreset=True)
@@ -25,7 +27,7 @@ def cor_nivel(nivel):
         return Fore.WHITE
 
 def barra(nivel):
-    return "[" + "■" * nivel + " " * (5 - nivel) + "]"
+    return "[" + "#" * nivel + " " * (5 - nivel) + "]"
 
 def alerta(nivel):
     if nivel == 1:
@@ -51,3 +53,4 @@ for i in range(5):
     print()
 
 print(Style.RESET_ALL)
+
