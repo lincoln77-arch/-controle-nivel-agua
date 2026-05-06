@@ -23,8 +23,9 @@ def cor_nivel(nivel):
         return Fore.CYAN
     elif nivel == 5:
         return Fore.BLUE
-    else: se
-        return Fore.WHITE
+    else:
+    return Fore.WHITE
+        
 
 def barra(nivel):
     return "[" + "#" * nivel + " " * (len(niveis) - nivel) + "]"
