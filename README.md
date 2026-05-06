@@ -1,4 +1,3 @@
-# controle-nivel-agua
 # 🌊 Controle de Nível de Água
 
 Projeto simples desenvolvido em Python com o objetivo de simular o monitoramento do nível de água de um reservatório.
